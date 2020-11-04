@@ -1,7 +1,6 @@
-/*********************** 
-Variables and data types
-*/
-/*
+
+//Variables and data types
+
 var firstName = "John"; 
 console.log(firstName);
 var lastName = "Smith" ;
@@ -21,19 +20,16 @@ console.log (job) ;
 let _3years = 3;
 var $function = "10";
 var johnMark = "John and Mark" ; 
-var if = 23;
-*/
-/*****************************************************************
- * *************************************************************** 
- * Variable mutation and type coercion
- */
-/*
- var firstName = "John" ;
- var age = 28;
+var If = 23;
 
- //Type conversion
- const inputYear= "1999";
- console.log (Number(inputYear), inputYear)
+//Variable mutation and type coercion
+
+var firstName = "John" ;
+var age = 28;
+
+//Type conversion
+const inputYear= "1999";
+console.log (Number(inputYear), inputYear)
  // Type coercion
  console.log (firstName + " " + age);
 
@@ -56,11 +52,8 @@ var if = 23;
 
 
 
- /*****************************************************************
-  * *************************************************************** 
-  * Basic Operrators
-  */
- /*
+ // Basic Operrators
+
  var age = 28
  var year, yearJohn, yearMark ; 
 now = 2020
@@ -91,9 +84,7 @@ var x ;
 console.log (typeof x) ; 
 
 
-/**************************************************************
- * *************************************************************** 
- * Operator precedence
+// Operator precedence
  
 
  var now = 2020;
@@ -122,12 +113,10 @@ console.log (typeof x) ;
  console.log (x)
  x++ 
  console.log (x);
- */
+ 
 
 
-/**************************************************************** 
- * *************************************************************** 
- //Coding Challenge 1
+//Coding Challenge 1
  var markMass , markHeight , johnMass , johnHeight ;
  markMass = 85 ; markHeight = 1.80 ;
  johnMass = 90 ; johnHeight = 1.85 ; 
@@ -138,11 +127,8 @@ console.log (typeof x) ;
  console.log ("Is Marks BMI Higher than Johns ?",BMIHigher);
   
 
- /****************************************************************
-  * *************************************************************** 
-  *  * If / else Statements
- */
- /*var firstName = "John" ; 
+ // If / else Statements
+ var firstName = "John" ; 
  var civilStatus = "single";
 
  if (civilStatus === "married" ) {
@@ -162,9 +148,7 @@ markMass = 85 ; markHeight = 1.80 ;
  else {console.log ("Mark naht so thick bruhh")} ; 
 
 
-*************************************************************** 
-/*************************************************************** 
- Strings and Template Literals
+//Strings and Template Literals
 
 const firstName = "Rafo";
 const job = "Student" ;
@@ -178,9 +162,7 @@ console.log(Rafo)
 const rafoNew = `I'm ${firstName} a ${job} im ${year-birthYear} years old`
 console.log (rafoNew)
 
-***************************************************************
-***************************************************************  
-/* If else Statements
+// If else Statements
 
 var firstName = "John" ; 
 var age = 20;
@@ -193,12 +175,9 @@ if (age<13) {
      console.log(firstName + " is a young man")
  }
  else {console.log(firstName +  " is a man.");} 
- */
-/*
+ 
 
-*************************************************************** 
-*************************************************************** 
- // The Ternary Operator and switch Statements
+// The Ternary Operator and switch Statements
 var firstName = "Rafo" ; 
 var age = 21; 
 
@@ -209,16 +188,15 @@ age >=18 ? console.log(firstName + " drinks beer.")
 var drink = age >= 18 ? "beer" : "juice";
  console.log (drink);
 
-/* if (age >=18) {          is the same
+if (age >=18) {             //is the same
      var drink= "beer";
  } else {
      var drink = "juice";
  } 
 
- *************************************************************** 
- *************************************************************** 
+
  //Switch Statement
- /*var job = "teacher" ; 
+ var job = "teacher" ; 
  switch (job) {
      case "teacher":
          console.log (firstName + " teaches kids how to code.")
@@ -243,9 +221,7 @@ default: console.log (firstName + " is a Man")
  }     
  
  
-*************************************************************** 
-*************************************************************** 
-/* If else Statements
+//If else Statements
 
 var firstName = "John" ; 
 var age = 20;
@@ -257,19 +233,16 @@ if (age<13) {
 }else if (age >=20 && age <30) {
      console.log(firstName + " is a young man")
  }
- else {console.log(firstName +  " is a man.");} */ 
+ else {console.log(firstName +  " is a man.");} 
  
 
 
- /*****************************************************************
-  * *************************************************************** 
-  *  Truthy and Falsy values and equality operators
-  */
+ // Truthy and Falsy values and equality operators
 
   // falsy values: undefined, null, 0 , "", NaN
   // truthy values: NOT falsy values
 
-  /*var height = 23  ; 
+  var height = 23  ; 
 
 
   if (height || height === 0  ) {console.log (" variavle is definde");}
@@ -281,10 +254,8 @@ if (age<13) {
   } 
 
 
-  *************************************************************** 
-  *************************************************************** 
  // Coding Challenge 2 
-/*
+
 var JG1 = 92;
 var JG2 = 120;
 var JG3 = 102;
@@ -315,12 +286,10 @@ else if (GGA>MGA && GGA>JGA) {
 else {
     console.log ("Mike has a higher score! Mike average Score was" + MGA ) ; 
 } 
-*/
 
-//*************************************************************** 
-//*************************************************************** 
+
 //The conditional Operator
-/*
+
 const age = 18; 
 age >=16 ? console.log('I like to drinke wine') : 
 console.log("i dirnk water");
@@ -334,8 +303,6 @@ else {console.log("water")}
 
 
 
-*************************************************************** 
-*************************************************************** 
 // Functions 
 function calculateAge (birthYear) {
     return 2020 - birthYear;
@@ -351,22 +318,18 @@ function yearsUntilRetirement(year, firstName)
     var retirement = 65 - age; 
     console.log(firstName + " retires in " + retirement + " years.")
 }
-*//*
+
 yearsUntilRetirement(1999, "Rafo");
  
-
-*************************************************************** 
-*************************************************************** 
+ 
 //Coding Challenge 4 
 const bill = 275 ;
-const tip = 
-if this is true  bill <=300 && bill >=50 ?
-then this  bill * 0.15 :
-else bill * 0.2;
+const tip = 10
+//bill <=300 && bill >=50 ? *0.15 : * 0.2;
 let value = bill + tip ;
 
 console.log(`The bill was ${bill }, the tip was ${tip}, and the total value 
 was ${value}`)  ; 
-*/
+
 
 

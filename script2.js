@@ -1,5 +1,5 @@
 'use strict';
-/*
+
 let hasDriversLicense = false ; 
 const passTest = true ;
 
@@ -57,4 +57,4 @@ const calcAge2 =  function (birthYear) {
 const age2 = calcAge2 (1999);
 console.log (age1, age2) ; 
 
-*/
+

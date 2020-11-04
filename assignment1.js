@@ -1,4 +1,4 @@
-/*//LECTURE: Values and Variables
+//LECTURE: Values and Variables
 const country ="Germany" ; 
 const continent = "Europe";
 let population = "81Mill";
@@ -70,4 +70,4 @@ switch (language) {
 //LECTURE: The Conditional (Ternary) Operator
 population = 22
 console.log (`Germany population is ${population <= 33 ? "below" : "above"} average`)
-*/
+

@@ -1,5 +1,5 @@
 //Assignments
-/*
+
 //LECTURE: Functions 
 
 function describeCountry (country, population, capitalCity) {
@@ -19,7 +19,6 @@ console.log (Finland)
 
 console.log (Armenia,  Germany, Finland)
 
-*/
 
 //LECTURE: Function Declarations vs. Expressions
 
