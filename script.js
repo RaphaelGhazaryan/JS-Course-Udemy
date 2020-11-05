@@ -15,4 +15,3 @@ console.log(yearsUntilRetirement (1999, "Raphael"));
 console.log(yearsUntilRetirement (1999, "Raphael")); 
 console.log(yearsUntilRetirement (1999, "Raphael")); 
 
-//
