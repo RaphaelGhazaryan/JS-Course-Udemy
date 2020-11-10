@@ -1,4 +1,4 @@
-//Arrow Function
+//Arrow Function Cool
 
 const calcAge = birthYear => 2020 - birthYear; 
 const age = calcAge (1999); 
