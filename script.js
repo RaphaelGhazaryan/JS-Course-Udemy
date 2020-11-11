@@ -1,9 +1,16 @@
 
-const calcTip = (billValue) => {
-    billValue >=50 && <=300 ? billValue*0.15: billValue*0.20;
-    //return retirment;
-    return `The tip is gonna be ${billValue}€`
+const calcTip = billValue => {
+    const tip = billValue >= 50 && billValue <= 300 ? billValue * 0.15 : billValue * 0.20;
+    return tip;
 }
-age >=18 ? console.log(firstName + " drinks beer.")
-: console.log(firstName + " drinks juice.");
+//need it once
+console.log(calcTip(100));
 
+//need it more than once
+const result = calcTip(100); 
+console.log(result);
+
+
+//shorter version
+const calcTipp = billValue => billValue >= 50 && billValue <= 300 ? billValue * 0.15 : billValue * 0.20;
+console.log(calcTipp(100));
