@@ -9,5 +9,7 @@ const myCountry = {
 console.log(`${myCountry.country} has ${myCountry.population} ${myCountry.language} people,
 ${myCountry.neighbours.length} neigbouring countries and a capital called ${myCountry.capital}.`);
 
-myCountry.population = '84000000';
-myCountry['population'] = '82000000';
+myCountry.population += 2;
+console.log(myCountry.population);
+myCountry['population'] -= 2;
+console.log(myCountry.population);
