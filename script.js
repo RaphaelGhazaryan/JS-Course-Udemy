@@ -11,7 +11,7 @@ const raphael = {
 };
 
 //how to retrieve a property from objects
-console.log(raphael.lastName)
+console.log(raphael.lastName);
 console.log(raphael['lastName']);
 
 const nameKey = 'Name'; 
