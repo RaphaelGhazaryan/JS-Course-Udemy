@@ -14,7 +14,7 @@ const raphael = [
 ];
 const types = [];
 
-for(let i = 0; i < raphael.length; i++) {
+for (let i = 0; i < raphael.length; i++) {
     // reading from raphael array
     console.log(raphael[i], typeof raphael[i]);
 
@@ -28,8 +28,8 @@ console.log(types);
 const years = [1991, 1990, 2120, 2006];
 const ages = [];
 
-for(let i = 0; i < years.length; i++) {
-   ages.push (2020 - years[i])
+for (let i = 0; i < years.length; i++) {
+   ages.push (2020 - years[i]);
 }
 
 console.log(ages);

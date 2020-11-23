@@ -4,9 +4,10 @@
         console.log(`Voter number ${rep} is currently voting `);
  
 
-        function percentageOfWorld1(population) {
-            return (population / 7900) * 100;
-            }
+ function percentageOfWorld1(population) {
+    return (population / 7900) * 100;
+    }
+    
  const populations = [10, 1441, 332, 83];
  const percentages2 = [];
  for (let i = 0; i < populations.length; i++) {
