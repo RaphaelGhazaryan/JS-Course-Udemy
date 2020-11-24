@@ -1,46 +1,25 @@
-// for Loop 
-
-// for loop keeps running while condition is  TRUE
-for (let rep = 1; rep <= 10; rep++) {    
-    console.log(`Lifting weights repetition ${rep}`);  
-}
+// looping backwards
 
 const raphael = [
-    'raphael',
+    'Raphael',
     'Ghazaryan',
-    2020-1999,
+    2020 - 1999,
     'student',
-    ['Erik','Wasen','Sahel']
+    ['Wasen','Sahel','Erik'],
 ];
-const types = [];
 
-for (let i = 0; i < raphael.length; i++) {
-    // reading from raphael array
-    console.log(raphael[i], typeof raphael[i]);
 
-    // filling types array
-    // types[i] = typeof raphael[i];
-    types.push(typeof raphael[i]);
+for(let i = raphael.length - 1; i >= 0; i--) {
+    console.log(i,raphael[i]);
 }
 
-console.log(types);
+// loops in loops
 
-const years = [1991, 1990, 2120, 2006];
-const ages = [];
+for (let exercise = 1; exercise <= 3; exercise++) {
+    console.log(`---EXERCISE NR.${exercise}`)
 
-for (let i = 0; i < years.length; i++) {
-   ages.push (2020 - years[i]);
-}
-
-console.log(ages);
-
-// continue at current value [i]
-for (let i = 0; i < raphael.length; i++) {
-   if (typeof raphael[i] !== 'string') continue;
-   console.log(raphael[i], typeof raphael[i]); 
-}
-// break at current value [i]
-for (let i = 0; i < raphael.length; i++) {
-   if (typeof raphael[i] === 'string') break;
-   console.log(raphael[i], typeof raphael[i]);
+ for (let rep = 1; rep < 6; rep++) {
+    console.log(`Lifting weight repetition ${rep}`);
+     
+ }
 }
