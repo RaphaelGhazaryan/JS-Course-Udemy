@@ -8,9 +8,9 @@ const calcTipp = function(bill){
 }
 
 
-for (let tip = 0; tip < bills.length; tip++) {
- const solu =  calcTipp(bills[tip]);
+for (let rep = 0; rep < bills.length; rep++) {
+ const solu =  calcTipp(bills[rep]);
   tips.push (solu);
-  totals.push (solu + bills[tip]);
+  totals.push (solu + bills[rep]);
 }
 console.log(bills, tips, totals);
