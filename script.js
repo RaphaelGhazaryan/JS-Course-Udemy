@@ -1,16 +1,13 @@
 'use strict';
 
-window.onscroll = function () {
-  myFunction();
-};
+document.querySelector('.btn').addEventListener('click', function () {
+  var guess = document.querySelector('input');
+  guess.onkeyup = function () {
+    document.getElementById('content').innerHTML = guess.value;
+  };
 
-var header = document.getElementById('title');
-var sticky = header.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add('sticky');
-  } else {
-    header.classList.remove('sticky');
+  if (!guess) {
+    document.querySelector('.message').textContent =
+      'Please type in something valid';
   }
-}
+});

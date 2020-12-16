@@ -4,19 +4,18 @@ h1 {
   width: 100%;
   padding: 30px;
   text-align: start;
-  margin-top: -40%;
+  margin-top: 0%;
   color: rgb(255, 255, 255);
   float: inline-start;
 }
 h2 {
   text-align: left;
-  margin-left: -100%;
+  margin-left: 0%;
   float: left;
 }
 body {
   height: 100vh;
   display: flex;
-  align-items: center;
   font-family: sans-serif;
   background: linear-gradient(to top left, #a828b4, #d5b16f);
 }
@@ -25,18 +24,4 @@ title {
   padding: 10px 16px;
   background: #555;
   color: #f1f1f1;
-}
-
-content {
-  padding: 16px;
-}
-
-sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-sticky + .content {
-  padding-top: 102px;
 }
