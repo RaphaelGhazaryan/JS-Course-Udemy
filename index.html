@@ -1,23 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <link rel="stylesheet" href="style.css" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>JavaScript Fundamentals – Part 1</title>
-  </head>
-  <body>
-    <div class="title">
-    <h1>Shopping List</h1>
-  </div>
-  <div class="content">
-  <ul><li>Apple</li><li>Orange</li></ul>
-    <h2>What do we need?</h2>
-    <input type="text" class="input"></input>
-    <button class="btn"></button>
-    <p class="message">Do we need something else?</p>
-  </div>
-  </body>
-  <script src="script.js"></script>
-</html>
+<form action="PayslipServlet" method="get">
+  What do we need?: <input type="text" name="lname" id="lname" /><br />
+
+  Shoppinglist: <span id="result"></span>
+  <br />
+  <input type="button" value="Submit" onClick="pr()" />
+</form>
+
+<script source="script.js">
+  function pr() {
+    document.getElementById('result').innerHTML = document.getElementById(
+      'lname'
+    ).value;
+  }
+</script>
